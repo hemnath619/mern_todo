@@ -1,0 +1,51 @@
+
+*{margin:0;padding:0;box-sizing: border-box;transition: 0.1s;}
+
+.footbox
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    padding: 10px 0px ;
+   
+}
+
+.text
+{
+    color:rgb(15, 14, 14);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    width:800px;
+}
+
+.icons
+{
+    display:flex; 
+    margin-right: 120px;
+    gap:12px;
+} 
+
+.icons img
+{
+    background-color:rgba(250,235,215,0.7);
+    height:20px;width:20px;
+    border-radius: 35px;
+    cursor:pointer;
+}
+.insta,.twit,.fb,.git,.tel,.wha{scale:1.5}
+
+
+.insta:hover{transition: 0.3s; scale:2} 
+.twit:hover{transition: 0.3s;scale:2}
+.fb:hover{transition: 0.3s;scale:2}
+.git:hover{transition: 0.3s;scale:2}
+.wha:hover{transition: 0.3s;scale:2}
+.tel:hover{transition: 0.3s;scale:2}
+
+
+
+
+
+

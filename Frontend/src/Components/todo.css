@@ -1,0 +1,193 @@
+*{outline: none; padding: 0;margin: 0;border: none;}
+
+.containertodo
+{
+    height: auto;
+    margin: 0px 200px ;
+    box-sizing: border-box;
+    backdrop-filter:blur(20px) ;
+    padding:20px 20px 50px 20px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.topic
+{
+    display:flex;
+    align-items: center;;
+    justify-content: center;
+    color:whitesmoke;
+    font-size:50px;
+    font-family:cursive;
+}
+.topictext{margin-bottom: 10px;}
+
+.containermain
+{
+    margin: 0px 100px;
+    backdrop-filter: blur(20px);
+    background-color:rgb(245,245,220,0.6);
+    padding: 10px ;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
+}
+
+
+.todoinput
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    gap:10px;
+}
+
+.inputtask::placeholder{color:black}
+
+.inputtask
+{
+    font-size: 15px;
+    border: solid 2px black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    justify-content: center;
+    background-color: transparent;
+    width: 400px;
+    height: 30px;
+    outline: none    
+}
+
+
+.edittask
+{
+    font-size: 20px;
+    border: solid 2px black;
+    color:black;
+    padding: 15px 0px 20px 10px;
+    border-radius: 8px;
+    text-align: left;
+    justify-content: center;
+    background-color: transparent;
+    width: 450px;
+    height: 45px;
+    outline: none;   
+}
+
+
+.tablecontainer
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height:250px;
+    width:100%;
+    overflow-y:auto;
+}
+
+.inputbutton
+{
+    padding: 10px 15px ;
+    color:aliceblue;
+    background-color:rgb(53, 52, 52);
+    border-radius: 20px;
+    width: 100px;
+    outline: none;
+    font-size: 20px;
+    box-shadow: 0px 8px #999;
+    cursor:pointer;
+}
+
+.inputbutton:hover {background-color:black}
+
+.inputbutton:active 
+{
+  background-color:black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.tablerow{background-color:rgb(121, 201, 121);}
+
+td{ border-bottom: solid 2px gray; padding:10px;}
+
+.tasktable{font-size: 20px;border-collapse: collapse;}
+
+.col1{ width: 550px;color:black;}
+
+
+.btn3d {
+
+    position: relative;
+    top: -6px;
+    border: 0;
+    transition: all 40ms linear;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color:white;
+    padding:10px;
+    border-radius: 15px;
+    cursor:pointer;
+  }
+
+
+  /* buttons */
+ 
+  .btn3d:active,.btn3d.active {top: 2px;}
+
+  /* update button */
+  .btn3d.btn-update { padding:10px 25px;
+    box-shadow: 0 0 0 1px #417fbd inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #4D5BBE, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    background-color: #4274D7;
+    color:white;
+  }
+  .btn3d.btn-update:active,
+  .btn3d.btn-update.active { padding:10px 25px;
+    box-shadow: 0 0 0 1px #417fbd inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+    background-color: #4274D7;
+    color:white;
+  }
+  
+
+/* save button */
+ .btn3d.btn-save {padding:10px 25px;
+  box-shadow: 0 0 0 1px #30cd00 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #5eb924, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  background-color: #78d739;
+  color:white;
+}
+
+.btn3d.btn-save:active,
+.btn3d.btn-save.active { padding:10px 25px;
+  box-shadow: 0 0 0 1px #30cd00 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+  background-color: #78d739;
+  color:white;
+}
+  
+
+/* remove button */
+.btn3d.btn-Remove {
+  box-shadow: 0 0 0 1px #b93802 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #AA0000, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+  background-color: #D73814;
+  color:white;
+}
+
+.btn3d.btn-Remove:active,
+.btn3d.btn-Remove.active {
+  box-shadow: 0 0 0 1px #b93802 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+  background-color: #D73814;
+  color:white;
+}
+  
+  
+
+  
+ 
+ 
+  
+  

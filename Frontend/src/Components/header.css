@@ -1,0 +1,46 @@
+*{margin:0;padding:0;box-sizing: border-box;transition: 0.1s;}
+
+
+.box
+{    padding:20px 0px 10px 0px;
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     width:100%;
+}
+
+.head  h3
+{ 
+     color:white;
+     padding-left: 5%;
+     font-size: 50px;
+     font-family:cursive;
+     font-style:italic;
+     width:400px
+}
+ 
+.logout{ padding:0 20px 0 0}
+
+.lgbtn
+{
+     color:white;
+     padding:5px 15px 8px 15px;
+     font-size: 25px;
+     font-family:cursive;
+     font-style:italic;
+     border: 2px solid white;
+     border-radius: 20px;
+     cursor:pointer;
+     background-color: transparent;
+
+}
+
+
+
+
+
+
+
+
+
+
