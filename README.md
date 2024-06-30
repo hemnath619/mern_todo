@@ -1,9 +1,9 @@
-# MERN Stack TODO Web Application
+![image](https://github.com/hemnath619/mern_todo/assets/139835247/f90665a1-453e-48b8-930a-bb65bf7c7a7e)# MERN Stack TODO Web Application
 
 This is a simple TODO application built using the MERN stack. It allows users to manage their tasks with basic CRUD operations (Create, Read, Update, Delete).
 
 ## Screenshot
-<img src="https://github.com/hemnath619/mern_todo/blob/main/edit%20page.png" height=300px width=500px alt="to_do"> <img src="https://github.com/hemnath619/mern_todo/blob/main/login%20page.png" height=300px width=500px alt="to_do"> <img src="https://github.com/hemnath619/mern_todo/blob/main/todo%20page.png" height=300px width=500px alt="to_do">
+<img src="https://github.com/hemnath619/mern_todo/blob/main/edit%20page.png" height=300px width=500px alt="to_do"> <img src="https://github.com/hemnath619/mern_todo/blob/main/login%20page.png" height=300px width=500px alt="to_do"> <img src="https://github.com/hemnath619/mern_todo/blob/main/todo%20page.png" height=300px width=500px alt="to_do"> <img src="https://github.com/hemnath619/mern_todo/blob/main/backend%20page.png" height=300px width=500px alt="to_do"> 
 ## Features
 
 - User authentication (signup, login, logout)
