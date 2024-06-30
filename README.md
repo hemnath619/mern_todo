@@ -53,7 +53,6 @@ Replace <your_mongodb_uri> with your MongoDB connection string and <your_jwt_sec
 
 ## Running the Application
 1. **Start the server:**
-
     ```bash
     cd server
     npm start
@@ -63,15 +62,7 @@ Replace <your_mongodb_uri> with your MongoDB connection string and <your_jwt_sec
     npm start
 3. **Open your browser and navigate to http://localhost:3000.**
 
-## API Endpoints
-**User Routes**
-- POST /api/users/register - Register a new user
-- POST /api/users/login - Login a user
-**Task Routes**
-- GET /api/tasks - Get all tasks
-- POST /api/tasks - Create a new task
-- PUT /api/tasks/:id - Update a task
-- DELETE /api/tasks/:id - Delete a task
+
 ### Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any changes.
 
